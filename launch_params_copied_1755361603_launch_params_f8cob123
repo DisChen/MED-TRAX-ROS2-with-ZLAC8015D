@@ -1,5 +1,0 @@
-/**:
-  ros__parameters:
-    node_names: !!python/tuple
-    - map_server
-    - amcl

@@ -1,4 +1,0 @@
-/slam_toolbox:
-  ros__parameters:
-    use_lifecycle_manager: false
-    use_sim_time: false
