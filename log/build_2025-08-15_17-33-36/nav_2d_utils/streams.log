@@ -1,0 +1,114 @@
+[0.103s] Invoking command in '/home/brilliant/ros2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/brilliant/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/nav_2d_utils
+[0.440s] -- The C compiler identification is GNU 13.3.0
+[0.692s] -- The CXX compiler identification is GNU 13.3.0
+[0.749s] -- Detecting C compiler ABI info
+[1.311s] -- Detecting C compiler ABI info - done
+[1.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.401s] -- Detecting C compile features
+[1.410s] -- Detecting C compile features - done
+[1.473s] -- Detecting CXX compiler ABI info
+[1.793s] -- Detecting CXX compiler ABI info - done
+[1.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.828s] -- Detecting CXX compile features
+[1.831s] -- Detecting CXX compile features - done
+[1.849s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.434s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.650s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.851s] -- Found nav2_common: 1.3.7 (/home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[2.878s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.206s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.286s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.731s] -- Found nav_2d_msgs: 1.3.7 (/home/brilliant/ros2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[3.829s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.993s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.222s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.237s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.616s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.679s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.111s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[5.146s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[5.294s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.300s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.301s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.937s] -- Found nav2_msgs: 1.3.7 (/home/brilliant/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[6.366s] -- Found nav2_util: 1.3.7 (/home/brilliant/ros2_ws/install/nav2_util/share/nav2_util/cmake)
+[6.671s] -- Setting build type to Release as none was specified.
+[6.726s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.401s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.819s] -- Found Threads: TRUE  
+[7.873s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.875s] -- Configured cppcheck include dirs: /home/brilliant/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+[7.878s] -- Configured cppcheck exclude dirs and/or files: 
+[7.898s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.898s] -- Configured cpplint exclude dirs and/or files: 
+[7.905s] -- Added test 'lint_cmake' to check CMake code style
+[7.914s] -- Added test 'uncrustify' to check C / C++ code style
+[7.915s] -- Configured uncrustify additional arguments: 
+[7.920s] -- Added test 'xmllint' to check XML markup files
+[7.948s] -- Configuring done (7.8s)
+[8.254s] -- Generating done (0.2s)
+[8.351s] -- Build files have been written to: /home/brilliant/ros2_ws/build/nav_2d_utils
+[8.398s] Invoked command in '/home/brilliant/ros2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/brilliant/ros2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/nav_2d_utils
+[8.401s] Invoking command in '/home/brilliant/ros2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/brilliant/ros2_ws/build/nav_2d_utils -- -j4 -l4
+[8.695s] [  6%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[22.037s] [ 12%] [32m[1mLinking CXX shared library libconversions.so[0m
+[22.981s] [ 12%] Built target conversions
+[23.138s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[55.505s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[55.750s] [ 25%] Built target gtest
+[55.895s] [ 31%] [32mBuilding CXX object CMakeFiles/tf_help.dir/src/tf_help.cpp.o[0m
+[69.157s] [ 37%] [32m[1mLinking CXX shared library libtf_help.so[0m
+[69.845s] [ 37%] Built target tf_help
+[69.978s] [ 43%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[73.380s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[73.608s] [ 50%] Built target gtest_main
+[73.742s] [ 56%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[76.349s] [ 62%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[79.004s] [ 62%] Built target path_ops
+[79.143s] [ 68%] [32mBuilding CXX object test/CMakeFiles/tf_help_tests.dir/tf_help_test.cpp.o[0m
+[98.344s] [ 75%] [32m[1mLinking CXX executable tf_help_tests[0m
+[99.358s] [ 75%] Built target tf_help_tests
+[99.488s] [ 81%] [32mBuilding CXX object test/CMakeFiles/path_ops_tests.dir/path_ops_test.cpp.o[0m
+[105.157s] [ 87%] [32m[1mLinking CXX executable path_ops_tests[0m
+[106.607s] [ 87%] Built target path_ops_tests
+[106.760s] [ 93%] [32mBuilding CXX object test/CMakeFiles/2d_utils_tests.dir/2d_utils_test.cpp.o[0m
+[121.473s] [100%] [32m[1mLinking CXX executable 2d_utils_tests[0m
+[122.521s] [100%] Built target 2d_utils_tests
+[122.602s] Invoked command in '/home/brilliant/ros2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/brilliant/ros2_ws/build/nav_2d_utils -- -j4 -l4
+[122.605s] Invoking command in '/home/brilliant/ros2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/brilliant/ros2_ws/build/nav_2d_utils
+[122.663s] -- Install configuration: "Release"
+[122.666s] -- Execute custom install script
+[122.676s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/lib/libconversions.so
+[122.742s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/lib/libpath_ops.so
+[122.811s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/lib/libtf_help.so
+[122.882s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[122.940s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[123.004s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[123.059s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[123.152s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[123.195s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[123.233s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[123.280s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[123.348s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[123.393s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[123.445s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[123.484s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[123.520s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[123.549s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[123.583s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[123.610s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[123.641s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[123.668s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[123.727s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[123.760s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[123.795s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[123.832s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[123.888s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[123.970s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[124.011s] -- Symlinking: /home/brilliant/ros2_ws/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[124.067s] Invoked command in '/home/brilliant/ros2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/brilliant/ros2_ws/build/nav_2d_utils

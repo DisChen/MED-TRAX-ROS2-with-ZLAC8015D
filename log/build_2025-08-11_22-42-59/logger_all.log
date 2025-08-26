@@ -1,0 +1,408 @@
+[0.188s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.188s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78fe55794680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78fe557942c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78fe557942c0>>, mixin_verb=('build',))
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.284s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/brilliant/ros2_ws'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/minibot) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minibot' with type 'ros.ament_cmake' and name 'minibot'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/twist_stamper' with type 'ros.ament_python' and name 'twist_stamper'
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/brilliant/ros2_ws/src/install
+[0.395s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/jazzy
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.496s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brilliant/ros2_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brilliant/ros2_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/brilliant/ros2_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'minibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'minibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brilliant/ros2_ws/build/minibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brilliant/ros2_ws/install/minibot', 'merge_install': False, 'path': '/home/brilliant/ros2_ws/src/minibot', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brilliant/ros2_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brilliant/ros2_ws/install/serial', 'merge_install': False, 'path': '/home/brilliant/ros2_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brilliant/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brilliant/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/brilliant/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_target' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'twist_stamper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brilliant/ros2_ws/build/twist_stamper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brilliant/ros2_ws/install/twist_stamper', 'merge_install': False, 'path': '/home/brilliant/ros2_ws/src/twist_stamper', 'symlink_install': False, 'test_result_base': None}
+[0.500s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brilliant/ros2_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brilliant/ros2_ws/src/diffdrive_arduino'
+[0.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brilliant/ros2_ws/src/minibot' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brilliant/ros2_ws/src/minibot'
+[0.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brilliant/ros2_ws/src/serial' with build type 'ament_cmake'
+[0.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brilliant/ros2_ws/src/serial'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brilliant/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brilliant/ros2_ws/src/sllidar_ros2'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/diffdrive_arduino
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/minibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/minibot -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/minibot
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/serial
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/sllidar_ros2
+[3.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/serial
+[3.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/serial -- -j4 -l4
+[6.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/sllidar_ros2
+[6.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[7.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/minibot -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/minibot
+[7.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/minibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/minibot -- -j4 -l4
+[9.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/diffdrive_arduino
+[9.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[31.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/minibot -- -j4 -l4
+[31.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/minibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/minibot
+[31.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot)
+[31.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/minibot
+[31.539s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot' for CMake module files
+[31.541s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot' for CMake config files
+[31.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot', 'cmake_prefix_path')
+[31.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/minibot/share/minibot/hook/cmake_prefix_path.ps1'
+[31.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/minibot/share/minibot/hook/cmake_prefix_path.dsv'
+[31.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/minibot/share/minibot/hook/cmake_prefix_path.sh'
+[31.562s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/lib'
+[31.563s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/bin'
+[31.563s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/lib/pkgconfig/minibot.pc'
+[31.563s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/lib/python3.12/site-packages'
+[31.564s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/bin'
+[31.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.ps1'
+[31.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.dsv'
+[31.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.sh'
+[31.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.bash'
+[31.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.zsh'
+[31.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/minibot/share/colcon-core/packages/minibot)
+[31.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot)
+[31.592s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot' for CMake module files
+[31.594s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot' for CMake config files
+[31.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot', 'cmake_prefix_path')
+[31.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/minibot/share/minibot/hook/cmake_prefix_path.ps1'
+[31.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/minibot/share/minibot/hook/cmake_prefix_path.dsv'
+[31.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/minibot/share/minibot/hook/cmake_prefix_path.sh'
+[31.605s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/lib'
+[31.605s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/bin'
+[31.605s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/lib/pkgconfig/minibot.pc'
+[31.606s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/lib/python3.12/site-packages'
+[31.606s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/minibot/bin'
+[31.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.ps1'
+[31.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.dsv'
+[31.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.sh'
+[31.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.bash'
+[31.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/minibot/share/minibot/package.zsh'
+[31.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/minibot/share/colcon-core/packages/minibot)
+[31.629s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brilliant/ros2_ws/src/twist_stamper' with build type 'ament_python'
+[31.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_stamper', 'ament_prefix_path')
+[31.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.ps1'
+[31.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.dsv'
+[31.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.sh'
+[31.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.138s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brilliant/ros2_ws/src/twist_stamper'
+[33.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[35.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/diffdrive_arduino
+[35.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/serial -- -j4 -l4
+[35.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/serial
+[35.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[35.533s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino' for CMake module files
+[35.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/diffdrive_arduino
+[35.543s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino' for CMake config files
+[35.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[35.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[35.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[35.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[35.553s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/lib'
+[35.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[35.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[35.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[35.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[35.560s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/bin'
+[35.560s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[35.560s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/lib/python3.12/site-packages'
+[35.561s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/bin'
+[35.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[35.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[35.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[35.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[35.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[35.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[35.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[35.569s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino' for CMake module files
+[35.571s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino' for CMake config files
+[35.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[35.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[35.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[35.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[35.575s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/lib'
+[35.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[35.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[35.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[35.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[35.579s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/bin'
+[35.579s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[35.580s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/lib/python3.12/site-packages'
+[35.580s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/diffdrive_arduino/bin'
+[35.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[35.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[35.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[35.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[35.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[35.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[35.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[35.596s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial' for CMake module files
+[35.597s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial' for CMake config files
+[35.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[35.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[35.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/serial
+[35.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[35.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[35.605s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/lib'
+[35.605s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/bin'
+[35.606s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/lib/pkgconfig/serial.pc'
+[35.606s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/lib/python3.12/site-packages'
+[35.606s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/bin'
+[35.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.ps1'
+[35.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/serial/share/serial/package.dsv'
+[35.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.sh'
+[35.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.bash'
+[35.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.zsh'
+[35.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/serial/share/colcon-core/packages/serial)
+[35.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[35.613s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial' for CMake module files
+[35.615s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial' for CMake config files
+[35.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[35.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[35.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[35.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[35.619s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/lib'
+[35.620s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/bin'
+[35.620s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/lib/pkgconfig/serial.pc'
+[35.620s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/lib/python3.12/site-packages'
+[35.621s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/serial/bin'
+[35.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.ps1'
+[35.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/serial/share/serial/package.dsv'
+[35.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.sh'
+[35.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.bash'
+[35.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/serial/share/serial/package.zsh'
+[35.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/serial/share/colcon-core/packages/serial)
+[36.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/src/twist_stamper': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/brilliant/ros2_ws/build/twist_stamper/build install --record /home/brilliant/ros2_ws/build/twist_stamper/install.log --single-version-externally-managed install_data
+[37.952s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper' for CMake module files
+[37.953s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper' for CMake config files
+[37.954s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper/lib'
+[37.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/src/twist_stamper' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/brilliant/ros2_ws/build/twist_stamper/build install --record /home/brilliant/ros2_ws/build/twist_stamper/install.log --single-version-externally-managed install_data
+[37.961s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper/bin'
+[37.961s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper/lib/pkgconfig/twist_stamper.pc'
+[37.962s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages'
+[37.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_stamper', 'pythonpath')
+[37.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/hook/pythonpath.ps1'
+[37.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/hook/pythonpath.dsv'
+[37.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/hook/pythonpath.sh'
+[37.969s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/twist_stamper/bin'
+[37.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twist_stamper)
+[37.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/package.ps1'
+[37.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/package.dsv'
+[37.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/package.sh'
+[37.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/package.bash'
+[37.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper/package.zsh'
+[37.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/twist_stamper/share/colcon-core/packages/twist_stamper)
+[39.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[39.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brilliant/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/sllidar_ros2
+[39.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[39.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brilliant/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/sllidar_ros2
+[39.171s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2' for CMake module files
+[39.174s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2' for CMake config files
+[39.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[39.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[39.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[39.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[39.179s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/lib'
+[39.179s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/bin'
+[39.180s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[39.180s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[39.181s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/bin'
+[39.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[39.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[39.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[39.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[39.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[39.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[39.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[39.189s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2' for CMake module files
+[39.192s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2' for CMake config files
+[39.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[39.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[39.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[39.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[39.198s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/lib'
+[39.198s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/bin'
+[39.199s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[39.199s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[39.200s] Level 1:colcon.colcon_core.environment:checking '/home/brilliant/ros2_ws/install/sllidar_ros2/bin'
+[39.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[39.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[39.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[39.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[39.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[39.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brilliant/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[39.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.211s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.257s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.363s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brilliant/ros2_ws/install/local_setup.ps1'
+[39.365s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brilliant/ros2_ws/install/_local_setup_util_ps1.py'
+[39.368s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brilliant/ros2_ws/install/setup.ps1'
+[39.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brilliant/ros2_ws/install/local_setup.sh'
+[39.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brilliant/ros2_ws/install/_local_setup_util_sh.py'
+[39.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brilliant/ros2_ws/install/setup.sh'
+[39.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brilliant/ros2_ws/install/local_setup.bash'
+[39.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brilliant/ros2_ws/install/setup.bash'
+[39.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brilliant/ros2_ws/install/local_setup.zsh'
+[39.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brilliant/ros2_ws/install/setup.zsh'

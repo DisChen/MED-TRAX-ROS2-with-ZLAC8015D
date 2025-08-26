@@ -1,0 +1,79 @@
+[0.031s] Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/serial
+[0.344s] -- The C compiler identification is GNU 13.3.0
+[0.561s] -- The CXX compiler identification is GNU 13.3.0
+[0.602s] -- Detecting C compiler ABI info
+[0.899s] -- Detecting C compiler ABI info - done
+[0.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.929s] -- Detecting C compile features
+[0.934s] -- Detecting C compile features - done
+[0.961s] -- Detecting CXX compiler ABI info
+[1.309s] -- Detecting CXX compiler ABI info - done
+[1.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.355s] -- Detecting CXX compile features
+[1.358s] -- Detecting CXX compile features - done
+[1.370s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.898s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.346s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.412s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[2.455s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.471s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.756s] -- Found Threads: TRUE  
+[3.031s] -- Configuring done (3.0s)
+[3.095s] -- Generating done (0.0s)
+[3.107s] -- Build files have been written to: /home/brilliant/ros2_ws/build/serial
+[3.118s] Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/serial
+[3.121s] Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/serial -- -j4 -l4
+[3.321s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[3.332s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[3.422s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.428s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.832s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[7.662s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.904s] [ 42%] Built target gtest_main
+[8.317s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[8.562s] [ 50%] Built target serial
+[8.676s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[10.721s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[11.318s] [ 64%] Built target serial_example
+[25.150s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[25.643s] [ 71%] Built target gtest
+[25.799s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[28.986s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[28.986s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[28.986s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[28.986s]                  from [01m[K/home/brilliant/ros2_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[28.986s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[28.987s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[28.987s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[30.058s] [ 85%] [32m[1mLinking CXX executable serial-test[0m
+[30.796s] [ 85%] Built target serial-test
+[30.929s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[34.460s] [100%] [32m[1mLinking CXX executable serial-test-timer[0m
+[34.897s] [100%] Built target serial-test-timer
+[34.943s] Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/serial -- -j4 -l4
+[34.944s] Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/serial
+[35.013s] -- Install configuration: ""
+[35.013s] -- Installing: /home/brilliant/ros2_ws/install/serial/lib/libserial.a
+[35.014s] -- Installing: /home/brilliant/ros2_ws/install/serial/include/serial/serial.h
+[35.019s] -- Installing: /home/brilliant/ros2_ws/install/serial/include/serial/v8stdint.h
+[35.019s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[35.019s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[35.020s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[35.020s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[35.021s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[35.021s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[35.022s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/environment/path.sh
+[35.026s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/environment/path.dsv
+[35.029s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.bash
+[35.029s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.sh
+[35.029s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.zsh
+[35.029s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.dsv
+[35.029s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/package.dsv
+[35.030s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[35.030s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.032s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[35.036s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[35.036s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[35.036s] -- Installing: /home/brilliant/ros2_ws/install/serial/share/serial/package.xml
+[35.073s] Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/serial

@@ -1,0 +1,93 @@
+[0.035s] Invoking command in '/home/brilliant/ros2_ws/build/minibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/minibot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/minibot
+[0.074s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.639s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.660s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.739s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.763s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.018s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.449s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.526s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.777s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.792s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.795s] -- Configured cppcheck include dirs: 
+[1.795s] -- Configured cppcheck exclude dirs and/or files: 
+[1.810s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.810s] -- Configured cpplint exclude dirs and/or files: 
+[1.817s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.817s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.823s] -- Added test 'lint_cmake' to check CMake code style
+[1.828s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.846s] -- Added test 'uncrustify' to check C / C++ code style
+[1.848s] -- Configured uncrustify additional arguments: 
+[1.848s] -- Added test 'xmllint' to check XML markup files
+[1.854s] -- Configuring done (1.8s)
+[1.910s] -- Generating done (0.0s)
+[1.915s] -- Build files have been written to: /home/brilliant/ros2_ws/build/minibot
+[2.047s] Invoked command in '/home/brilliant/ros2_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/minibot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/minibot
+[2.048s] Invoking command in '/home/brilliant/ros2_ws/build/minibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/minibot -- -j4 -l4
+[2.201s] [100%] Built target velocity_publisher
+[2.242s] Invoked command in '/home/brilliant/ros2_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/minibot -- -j4 -l4
+[2.243s] Invoking command in '/home/brilliant/ros2_ws/build/minibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/minibot
+[2.263s] -- Install configuration: ""
+[2.265s] -- Execute custom install script
+[2.266s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/lib/minibot/velocity_publisher
+[2.267s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/controller.yaml
+[2.268s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/controller_gz_sim.yaml
+[2.269s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/empty.yaml
+[2.270s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/gz_params.yaml
+[2.270s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/joystick_params.yaml
+[2.271s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/mapper_params_localization.yaml
+[2.271s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/mapper_params_online_async.yaml
+[2.272s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/minibot_config.rviz
+[2.272s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/minibot_display.rviz
+[2.274s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/nav2_params.yaml
+[2.274s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/sim_config.rviz
+[2.274s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/config/twist_mux.yaml
+[2.277s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/camera.xacro
+[2.277s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/depth_camera.xacro
+[2.277s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/gz_diff_drive_control.xacro
+[2.278s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/inertial_macros.xacro
+[2.278s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/lidar.xacro
+[2.278s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/robot.urdf.xacro
+[2.278s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/robot_main.xacro
+[2.280s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/description/ros2_control.xacro
+[2.281s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/launch/joystick_teleop.launch.py
+[2.281s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/launch/robot.launch.py
+[2.281s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/launch/robot_remote_station.launch.py
+[2.281s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/launch/sim.launch.py
+[2.282s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/launch/sim_control_station.launch.py
+[2.282s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/worlds/empty.sdf
+[2.283s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/worlds/playground.sdf
+[2.283s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/demo_publisher_node/velocity_publisher.cpp
+[2.284s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/map_01.pgm
+[2.289s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/map_01.yaml
+[2.289s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/map_01_serial.data
+[2.289s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/map_01_serial.posegraph
+[2.294s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/sample_map.pgm
+[2.294s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/sample_map.yaml
+[2.294s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/sample_map_serial.data
+[2.294s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/maps/sample_map_serial.posegraph
+[2.295s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/visual_demos/Nav2_demostration-ezgif.com-video-to-gif-converter.gif
+[2.295s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/visual_demos/SLAM_demostration-ezgif.com-video-to-gif-converter.gif
+[2.295s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/visual_demos/robot_hardware.jpg
+[2.295s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/visual_demos/robot_visual.jpg
+[2.308s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/ament_index/resource_index/package_run_dependencies/minibot
+[2.308s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/ament_index/resource_index/parent_prefix_path/minibot
+[2.309s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/environment/ament_prefix_path.sh
+[2.309s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/environment/ament_prefix_path.dsv
+[2.309s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/environment/path.sh
+[2.309s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/environment/path.dsv
+[2.310s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/local_setup.bash
+[2.310s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/local_setup.sh
+[2.310s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/local_setup.zsh
+[2.313s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/local_setup.dsv
+[2.319s] -- Symlinking: /home/brilliant/ros2_ws/install/minibot/share/minibot/package.dsv
+[2.322s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/ament_index/resource_index/packages/minibot
+[2.322s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/cmake/minibotConfig.cmake
+[2.322s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/cmake/minibotConfig-version.cmake
+[2.322s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/minibot/share/minibot/package.xml
+[2.329s] Invoked command in '/home/brilliant/ros2_ws/build/minibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/minibot

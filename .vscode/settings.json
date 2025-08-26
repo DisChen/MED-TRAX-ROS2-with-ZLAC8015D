@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/brilliant/ros2_ws/src/build/twist_stamper",
+        "/home/brilliant/ros2_ws/src/install/twist_stamper/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/brilliant/ros2_ws/src/build/twist_stamper",
+        "/home/brilliant/ros2_ws/src/install/twist_stamper/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "files.autoSave": "afterDelay"
+}

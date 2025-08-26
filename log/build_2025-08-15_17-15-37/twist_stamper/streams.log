@@ -1,0 +1,18 @@
+[1.609s] Invoking command in '/home/brilliant/ros2_ws/build/twist_stamper': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brilliant/ros2_ws/build/twist_stamper/build --no-deps symlink_data
+[2.157s] running develop
+[2.525s] running egg_info
+[2.557s] writing twist_stamper.egg-info/PKG-INFO
+[2.557s] writing dependency_links to twist_stamper.egg-info/dependency_links.txt
+[2.558s] writing entry points to twist_stamper.egg-info/entry_points.txt
+[2.558s] writing requirements to twist_stamper.egg-info/requires.txt
+[2.559s] writing top-level names to twist_stamper.egg-info/top_level.txt
+[2.629s] reading manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[2.630s] writing manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[2.665s] running build_ext
+[2.665s] Creating /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist-stamper.egg-link (link to .)
+[2.666s] Installing twist_stamper script to /home/brilliant/ros2_ws/install/twist_stamper/lib/twist_stamper
+[2.666s] Installing twist_unstamper script to /home/brilliant/ros2_ws/install/twist_stamper/lib/twist_stamper
+[2.667s] 
+[2.667s] Installed /home/brilliant/ros2_ws/build/twist_stamper
+[2.668s] running symlink_data
+[2.735s] Invoked command in '/home/brilliant/ros2_ws/build/twist_stamper' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brilliant/ros2_ws/build/twist_stamper/build --no-deps symlink_data

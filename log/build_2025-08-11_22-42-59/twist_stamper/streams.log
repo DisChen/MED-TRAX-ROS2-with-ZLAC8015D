@@ -1,0 +1,42 @@
+[4.846s] Invoking command in '/home/brilliant/ros2_ws/src/twist_stamper': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/brilliant/ros2_ws/build/twist_stamper/build install --record /home/brilliant/ros2_ws/build/twist_stamper/install.log --single-version-externally-managed install_data
+[5.663s] running egg_info
+[5.664s] creating ../../build/twist_stamper/twist_stamper.egg-info
+[5.706s] writing ../../build/twist_stamper/twist_stamper.egg-info/PKG-INFO
+[5.708s] writing dependency_links to ../../build/twist_stamper/twist_stamper.egg-info/dependency_links.txt
+[5.709s] writing entry points to ../../build/twist_stamper/twist_stamper.egg-info/entry_points.txt
+[5.709s] writing requirements to ../../build/twist_stamper/twist_stamper.egg-info/requires.txt
+[5.709s] writing top-level names to ../../build/twist_stamper/twist_stamper.egg-info/top_level.txt
+[5.709s] writing manifest file '../../build/twist_stamper/twist_stamper.egg-info/SOURCES.txt'
+[5.800s] reading manifest file '../../build/twist_stamper/twist_stamper.egg-info/SOURCES.txt'
+[5.800s] adding license file 'LICENSE'
+[5.801s] writing manifest file '../../build/twist_stamper/twist_stamper.egg-info/SOURCES.txt'
+[5.801s] running build
+[5.801s] running build_py
+[5.802s] creating /home/brilliant/ros2_ws/build/twist_stamper/build
+[5.802s] creating /home/brilliant/ros2_ws/build/twist_stamper/build/lib
+[5.802s] creating /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper
+[5.803s] copying twist_stamper/__init__.py -> /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper
+[5.803s] copying twist_stamper/twist_stamper.py -> /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper
+[5.803s] copying twist_stamper/twist_unstamper.py -> /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper
+[5.804s] running install
+[5.817s] running install_lib
+[5.866s] creating /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper
+[5.867s] copying /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper/__init__.py -> /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper
+[5.867s] copying /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper/twist_stamper.py -> /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper
+[5.867s] copying /home/brilliant/ros2_ws/build/twist_stamper/build/lib/twist_stamper/twist_unstamper.py -> /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper
+[5.868s] byte-compiling /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper/__init__.py to __init__.cpython-312.pyc
+[5.869s] byte-compiling /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper/twist_stamper.py to twist_stamper.cpython-312.pyc
+[5.870s] byte-compiling /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper/twist_unstamper.py to twist_unstamper.cpython-312.pyc
+[5.871s] running install_data
+[5.872s] creating /home/brilliant/ros2_ws/install/twist_stamper/share/ament_index
+[5.872s] creating /home/brilliant/ros2_ws/install/twist_stamper/share/ament_index/resource_index
+[5.872s] creating /home/brilliant/ros2_ws/install/twist_stamper/share/ament_index/resource_index/packages
+[5.873s] copying resource/twist_stamper -> /home/brilliant/ros2_ws/install/twist_stamper/share/ament_index/resource_index/packages
+[5.873s] copying package.xml -> /home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper
+[5.873s] running install_egg_info
+[5.919s] Copying ../../build/twist_stamper/twist_stamper.egg-info to /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist_stamper-0.0.5-py3.12.egg-info
+[5.921s] running install_scripts
+[6.216s] Installing twist_stamper script to /home/brilliant/ros2_ws/install/twist_stamper/lib/twist_stamper
+[6.217s] Installing twist_unstamper script to /home/brilliant/ros2_ws/install/twist_stamper/lib/twist_stamper
+[6.217s] writing list of installed files to '/home/brilliant/ros2_ws/build/twist_stamper/install.log'
+[6.320s] Invoked command in '/home/brilliant/ros2_ws/src/twist_stamper' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/brilliant/ros2_ws/build/twist_stamper/build install --record /home/brilliant/ros2_ws/build/twist_stamper/install.log --single-version-externally-managed install_data

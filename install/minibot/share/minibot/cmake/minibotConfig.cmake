@@ -1,0 +1,1 @@
+/home/brilliant/ros2_ws/build/minibot/ament_cmake_core/minibotConfig.cmake

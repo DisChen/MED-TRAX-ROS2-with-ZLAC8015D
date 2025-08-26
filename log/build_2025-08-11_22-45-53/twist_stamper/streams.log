@@ -1,0 +1,20 @@
+[2.350s] Invoking command in '/home/brilliant/ros2_ws/build/twist_stamper': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brilliant/ros2_ws/build/twist_stamper/build --no-deps symlink_data --force
+[2.937s] running develop
+[3.351s] running egg_info
+[3.383s] writing twist_stamper.egg-info/PKG-INFO
+[3.383s] writing dependency_links to twist_stamper.egg-info/dependency_links.txt
+[3.384s] writing entry points to twist_stamper.egg-info/entry_points.txt
+[3.384s] writing requirements to twist_stamper.egg-info/requires.txt
+[3.384s] writing top-level names to twist_stamper.egg-info/top_level.txt
+[3.452s] reading manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.454s] writing manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.487s] running build_ext
+[3.487s] Creating /home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages/twist-stamper.egg-link (link to .)
+[3.488s] Installing twist_stamper script to /home/brilliant/ros2_ws/install/twist_stamper/lib/twist_stamper
+[3.489s] Installing twist_unstamper script to /home/brilliant/ros2_ws/install/twist_stamper/lib/twist_stamper
+[3.489s] 
+[3.490s] Installed /home/brilliant/ros2_ws/build/twist_stamper
+[3.490s] running symlink_data
+[3.491s] symbolically linking /home/brilliant/ros2_ws/build/twist_stamper/resource/twist_stamper -> /home/brilliant/ros2_ws/install/twist_stamper/share/ament_index/resource_index/packages
+[3.491s] symbolically linking /home/brilliant/ros2_ws/build/twist_stamper/package.xml -> /home/brilliant/ros2_ws/install/twist_stamper/share/twist_stamper
+[3.550s] Invoked command in '/home/brilliant/ros2_ws/build/twist_stamper' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brilliant/ros2_ws/build/twist_stamper/build --no-deps symlink_data --force

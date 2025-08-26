@@ -1,0 +1,17 @@
+[4.616s] Invoking command in '/home/brilliant/ros2_ws/build/nav2_loopback_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brilliant/ros2_ws/build/nav2_loopback_sim/build --no-deps symlink_data
+[6.066s] running develop
+[7.072s] running egg_info
+[7.214s] writing nav2_loopback_sim.egg-info/PKG-INFO
+[7.215s] writing dependency_links to nav2_loopback_sim.egg-info/dependency_links.txt
+[7.215s] writing entry points to nav2_loopback_sim.egg-info/entry_points.txt
+[7.217s] writing requirements to nav2_loopback_sim.egg-info/requires.txt
+[7.217s] writing top-level names to nav2_loopback_sim.egg-info/top_level.txt
+[7.415s] reading manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[7.421s] writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[7.567s] running build_ext
+[7.569s] Creating /home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2-loopback-sim.egg-link (link to .)
+[7.571s] Installing loopback_simulator script to /home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[7.593s] 
+[7.593s] Installed /home/brilliant/ros2_ws/build/nav2_loopback_sim
+[7.594s] running symlink_data
+[7.726s] Invoked command in '/home/brilliant/ros2_ws/build/nav2_loopback_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/brilliant/ros2_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brilliant/ros2_ws/build/nav2_loopback_sim/build --no-deps symlink_data

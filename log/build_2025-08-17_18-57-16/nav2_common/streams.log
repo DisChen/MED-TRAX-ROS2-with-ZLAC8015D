@@ -1,0 +1,45 @@
+[0.129s] Invoking command in '/home/brilliant/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/nav2_common -- -j4 -l4
+[0.720s] Built target ament_cmake_python_symlink_nav2_common
+[2.690s] running egg_info
+[2.916s] writing nav2_common.egg-info/PKG-INFO
+[2.916s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[2.916s] writing top-level names to nav2_common.egg-info/top_level.txt
+[3.391s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.401s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.643s] Built target ament_cmake_python_build_nav2_common_egg
+[3.779s] Invoked command in '/home/brilliant/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/nav2_common -- -j4 -l4
+[3.794s] Invoking command in '/home/brilliant/ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/nav2_common
+[3.924s] -- Install configuration: ""
+[3.928s] -- Execute custom install script
+[3.933s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[3.942s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[3.942s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.7-py3.12.egg-info/PKG-INFO
+[3.942s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.7-py3.12.egg-info/SOURCES.txt
+[3.944s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.7-py3.12.egg-info/dependency_links.txt
+[3.947s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.7-py3.12.egg-info/top_level.txt
+[3.954s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py
+[3.956s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py
+[3.960s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py
+[3.962s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py
+[3.962s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py
+[3.969s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py
+[3.970s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[3.970s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[3.970s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[3.971s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[3.974s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[3.978s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[3.985s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[3.985s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[3.985s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[3.985s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[3.985s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/package.dsv
+[4.079s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[4.082s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[4.084s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[4.087s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[4.089s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/package.xml
+[4.093s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[4.380s] Listing '/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common'...
+[4.380s] Listing '/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch'...
+[4.410s] Invoked command in '/home/brilliant/ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/nav2_common

@@ -1,0 +1,386 @@
+[0.049s] Invoking command in '/home/brilliant/ros2_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/opennav_docking_core:/home/brilliant/ros2_ws/install/nav_2d_utils:/home/brilliant/ros2_ws/install/dwb_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_voxel_grid:/home/brilliant/ros2_ws/install/nav2_velocity_smoother:/home/brilliant/ros2_ws/install/nav2_rviz_plugins:/home/brilliant/ros2_ws/install/nav2_map_server:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager:/home/brilliant/ros2_ws/install/nav2_amcl:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/serial/lib:/home/brilliant/ros2_ws/install/nav_2d_utils/lib:/home/brilliant/ros2_ws/install/dwb_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:/home/brilliant/ros2_ws/install/nav2_voxel_grid/lib:/home/brilliant/ros2_ws/install/nav2_velocity_smoother/lib:/home/brilliant/ros2_ws/install/nav2_rviz_plugins/lib:/home/brilliant/ros2_ws/install/nav2_map_server/lib:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager/lib:/home/brilliant/ros2_ws/install/nav2_amcl/lib:/home/brilliant/ros2_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/twist_stamper:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_loopback_sim:/home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/brilliant/ros2_ws/build/nav2_behavior_tree -- -j4 -l4
+[0.426s] [  1%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.444s] [  2%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.468s] [  2%] Built target nav2_behavior_tree
+[0.488s] [  3%] Built target nav2_controller_cancel_bt_node
+[0.620s] [  3%] Built target nav2_spin_cancel_bt_node
+[0.622s] [  4%] Built target nav2_wait_cancel_bt_node
+[0.643s] [  5%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.649s] [  6%] Built target nav2_back_up_cancel_bt_node
+[0.772s] [  7%] Built target nav2_follow_path_action_bt_node
+[0.789s] [  8%] Built target nav2_smooth_path_action_bt_node
+[0.792s] [  9%] Built target nav2_drive_on_heading_cancel_bt_node
+[0.806s] [ 10%] Built target nav2_back_up_action_bt_node
+[0.924s] [ 11%] Built target nav2_spin_action_bt_node
+[0.965s] [ 11%] Built target nav2_drive_on_heading_bt_node
+[0.977s] [ 12%] Built target nav2_wait_action_bt_node
+[0.990s] [ 13%] Built target nav2_assisted_teleop_action_bt_node
+[1.078s] [ 14%] Built target nav2_clear_costmap_service_bt_node
+[1.146s] [ 15%] Built target nav2_transform_available_condition_bt_node
+[1.160s] [ 16%] Built target nav2_is_stuck_condition_bt_node
+[1.177s] [ 17%] Built target nav2_goal_reached_condition_bt_node
+[1.319s] [ 18%] Built target nav2_is_path_valid_condition_bt_node
+[1.447s] [ 19%] Built target nav2_time_expired_condition_bt_node
+[1.580s] [ 20%] Built target nav2_path_expiring_timer_condition
+[1.699s] [ 21%] Built target nav2_distance_traveled_condition_bt_node
+[1.819s] [ 22%] Built target nav2_initial_pose_received_condition_bt_node
+[1.926s] [ 23%] Built target nav2_is_battery_charging_condition_bt_node
+[2.045s] [ 24%] Built target nav2_is_battery_low_condition_bt_node
+[2.144s] [ 25%] Built target nav2_are_error_codes_active_condition_bt_node
+[2.241s] [ 26%] Built target nav2_would_a_controller_recovery_help_condition_bt_node
+[2.345s] [ 27%] Built target nav2_would_a_planner_recovery_help_condition_bt_node
+[2.429s] [ 27%] Built target nav2_would_a_smoother_recovery_help_condition_bt_node
+[2.511s] [ 27%] Built target nav2_reinitialize_global_localization_service_bt_node
+[2.581s] [ 28%] Built target nav2_rate_controller_bt_node
+[2.668s] [ 29%] Built target nav2_distance_controller_bt_node
+[2.759s] [ 30%] Built target nav2_speed_controller_bt_node
+[2.850s] [ 31%] Built target nav2_truncate_path_action_bt_node
+[2.952s] [ 32%] Built target nav2_truncate_path_local_action_bt_node
+[3.028s] [ 33%] Built target nav2_goal_updater_node_bt_node
+[3.111s] [ 34%] Built target nav2_path_longer_on_approach_bt_node
+[3.177s] [ 35%] Built target nav2_recovery_node_bt_node
+[3.257s] [ 35%] Built target nav2_navigate_to_pose_action_bt_node
+[3.337s] [ 36%] Built target nav2_navigate_through_poses_action_bt_node
+[3.421s] [ 37%] Built target nav2_remove_passed_goals_action_bt_node
+[3.506s] [ 38%] Built target nav2_get_pose_from_path_action_bt_node
+[3.575s] [ 39%] Built target nav2_pipeline_sequence_bt_node
+[3.644s] [ 40%] Built target nav2_round_robin_node_bt_node
+[3.718s] [ 41%] Built target nav2_single_trigger_bt_node
+[3.796s] [ 42%] Built target nav2_planner_selector_bt_node
+[3.878s] [ 43%] Built target nav2_controller_selector_bt_node
+[3.938s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o[0m
+[11.977s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[13.102s] [ 44%] Built target nav2_goal_updated_condition_bt_node
+[13.278s] [ 45%] Built target nav2_globally_updated_goal_condition_bt_node
+[13.450s] [ 46%] Built target nav2_progress_checker_selector_bt_node
+[13.627s] [ 46%] Built target nav2_goal_updated_controller_bt_node
+[13.773s] [ 46%] Built target generate_nav2_tree_nodes_xml
+[13.889s] [ 47%] Built target gtest_main
+[14.012s] [ 48%] Built target gtest
+[14.146s] [ 48%] [32mBuilding CXX object test/CMakeFiles/test_bt_utils.dir/test_bt_utils.cpp.o[0m
+[15.234s] [ 48%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[41.228s] [ 49%] [32m[1mLinking CXX shared library libnav2_smoother_selector_bt_node.so[0m
+[42.826s] [ 49%] Built target nav2_smoother_selector_bt_node
+[47.884s] [ 50%] [32m[1mLinking CXX executable test_bt_utils[0m
+[48.818s] [ 50%] Built target test_bt_utils
+[52.522s] [ 51%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[53.297s] [ 51%] Built target test_condition_distance_traveled
+[54.902s] [ 52%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[55.502s] [ 52%] Built target nav2_goal_checker_selector_bt_node
+[55.570s] [ 53%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[72.224s] [ 53%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[72.711s] [ 53%] Built target test_condition_goal_reached
+[72.760s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[86.809s] [ 54%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[86.819s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o[0m
+[87.484s] [ 54%] Built target test_condition_goal_updated
+[87.597s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o[0m
+[88.698s] [ 55%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[88.780s] [ 56%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[136.033s] [ 56%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[136.356s] [ 56%] [32m[1mLinking CXX executable test_condition_globally_updated_goal[0m
+[136.700s] [ 56%] [32m[1mLinking CXX executable test_condition_path_expiring_timer[0m
+[137.219s] [ 56%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[138.305s] [ 56%] Built target test_condition_initial_pose_received
+[138.307s] [ 56%] Built target test_condition_globally_updated_goal
+[138.392s] [ 56%] Built target test_condition_path_expiring_timer
+[138.529s] [ 56%] Built target test_condition_time_expired
+[138.637s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_charging.dir/test_is_battery_charging.cpp.o[0m
+[157.698s] [ 57%] [32m[1mLinking CXX executable test_condition_is_battery_charging[0m
+[158.137s] [ 57%] Built target test_condition_is_battery_charging
+[158.195s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[172.035s] [ 58%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[172.508s] [ 58%] Built target test_condition_is_battery_low
+[172.573s] [ 58%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o[0m
+[185.386s] [ 59%] [32m[1mLinking CXX executable test_condition_is_path_valid[0m
+[185.943s] [ 59%] Built target test_condition_is_path_valid
+[186.048s] [ 59%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_are_error_codes_present.dir/test_are_error_codes_present.cpp.o[0m
+[192.099s] [ 59%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_controller_recovery_help.dir/test_would_a_controller_recovery_help.cpp.o[0m
+[193.140s] [ 59%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[194.257s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[211.653s] [ 61%] [32m[1mLinking CXX executable test_are_error_codes_present[0m
+[212.710s] [ 61%] Built target test_are_error_codes_present
+[220.479s] [ 62%] [32m[1mLinking CXX executable test_would_a_controller_recovery_help[0m
+[221.422s] [ 62%] Built target test_would_a_controller_recovery_help
+[221.958s] [ 62%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[222.580s] [ 63%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[222.599s] [ 63%] Built target test_condition_transform_available
+[223.210s] [ 63%] Built target test_condition_is_stuck
+[223.279s] [ 63%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[243.439s] [ 64%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[244.729s] [ 64%] Built target test_decorator_distance_controller
+[245.089s] [ 65%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[256.155s] [ 66%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[257.264s] [ 66%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_smoother_recovery_help.dir/test_would_a_smoother_recovery_help.cpp.o[0m
+[258.360s] [ 66%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_planner_recovery_help.dir/test_would_a_planner_recovery_help.cpp.o[0m
+[277.003s] [ 66%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[278.083s] [ 66%] Built target test_decorator_speed_controller
+[287.119s] [ 66%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[287.998s] [ 66%] Built target test_decorator_rate_controller
+[288.228s] [ 67%] [32m[1mLinking CXX executable test_would_a_smoother_recovery_help[0m
+[288.732s] [ 68%] [32m[1mLinking CXX executable test_would_a_planner_recovery_help[0m
+[288.843s] [ 68%] Built target test_would_a_smoother_recovery_help
+[289.221s] [ 68%] Built target test_would_a_planner_recovery_help
+[289.277s] [ 68%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[301.329s] [ 68%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[302.375s] [ 69%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[303.484s] [ 69%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[307.118s] [ 70%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[308.212s] [ 70%] Built target test_goal_updated_controller
+[321.819s] [ 70%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[322.555s] [ 70%] Built target test_decorator_path_longer_on_approach
+[325.233s] [ 71%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[325.755s] [ 71%] Built target test_goal_updater_node
+[326.829s] [ 71%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[326.839s] [ 71%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[327.526s] [ 71%] Built target test_single_trigger_node
+[327.588s] [ 72%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[329.642s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[351.173s] [ 73%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[351.975s] [ 73%] Built target test_control_round_robin_node
+[352.030s] [ 73%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[352.726s] [ 73%] Built target test_control_pipeline_sequence
+[355.644s] [ 74%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[356.157s] [ 74%] Built target test_bt_action_node
+[356.210s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[361.263s] [ 76%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[362.302s] [ 76%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[363.421s] [ 77%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[380.122s] [ 77%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[381.373s] [ 77%] Built target test_action_back_up_action
+[387.835s] [ 77%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[388.007s] [ 77%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[388.667s] [ 77%] Built target test_action_drive_on_heading
+[388.944s] [ 77%] Built target test_action_spin_action
+[391.603s] [ 77%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[392.097s] [ 77%] Built target test_control_recovery_node
+[392.147s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[401.196s] [ 78%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[402.248s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o[0m
+[403.351s] [ 80%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[410.694s] [ 80%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[411.782s] [ 80%] Built target test_action_controller_cancel_action
+[426.460s] [ 80%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[426.737s] [ 80%] [32m[1mLinking CXX executable test_action_assisted_teleop_action[0m
+[427.248s] [ 80%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[427.319s] [ 80%] Built target test_action_wait_cancel_action
+[427.553s] [ 80%] Built target test_action_assisted_teleop_action
+[427.774s] [ 80%] Built target test_action_wait_action
+[427.828s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o[0m
+[436.881s] [ 82%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[438.930s] [ 82%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[441.043s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[445.420s] [ 83%] [32m[1mLinking CXX executable test_action_assisted_teleop_cancel_action[0m
+[446.576s] [ 83%] Built target test_action_assisted_teleop_cancel_action
+[461.620s] [ 83%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[462.432s] [ 83%] Built target test_action_drive_on_heading_cancel_action
+[463.737s] [ 83%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[463.766s] [ 84%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[464.481s] [ 84%] Built target test_action_spin_cancel_action
+[464.492s] [ 84%] Built target test_action_back_up_cancel_action
+[464.539s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[476.597s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[478.722s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[479.821s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[480.561s] [ 85%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[482.149s] [ 85%] Built target test_action_compute_path_to_pose_action
+[511.551s] [ 86%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[512.703s] [ 86%] Built target test_action_reinitialize_global_localization_service
+[517.747s] [ 87%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[518.829s] [ 87%] Built target test_action_compute_path_through_poses_action
+[523.058s] [ 88%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[524.032s] [ 88%] Built target test_action_clear_costmap_service
+[524.098s] [ 88%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[539.997s] [ 89%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[540.513s] [ 89%] Built target test_action_navigate_to_pose_action
+[540.568s] [ 89%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[551.624s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[553.741s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[554.833s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[556.612s] [ 92%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[558.034s] [ 92%] Built target test_action_navigate_through_poses_action
+[572.793s] [ 92%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[573.454s] [ 92%] Built target test_truncate_path_action
+[578.696s] [ 92%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[578.914s] [ 93%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[579.326s] [ 93%] Built target test_action_follow_path_action
+[579.436s] [ 93%] Built target test_action_smooth_path_action
+[579.483s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_get_pose_from_path_action.dir/test_get_pose_from_path_action.cpp.o[0m
+[586.543s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[588.678s] [ 95%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[590.749s] [ 95%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[599.964s] [ 95%] [32m[1mLinking CXX executable test_get_pose_from_path_action[0m
+[601.135s] [ 95%] Built target test_get_pose_from_path_action
+[616.330s] [ 96%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[617.139s] [ 96%] Built target test_planner_selector_node
+[619.920s] [ 96%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[620.541s] [ 96%] Built target test_remove_passed_goals_action
+[623.659s] [ 97%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[624.176s] [ 97%] Built target test_truncate_path_local_action
+[624.225s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[637.599s] [ 98%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[638.104s] [ 98%] Built target test_goal_checker_selector_node
+[638.152s] [ 99%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o[0m
+[638.178s] [ 99%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_progress_checker_selector_node.dir/test_progress_checker_selector_node.cpp.o[0m
+[652.230s] [ 99%] [32m[1mLinking CXX executable test_progress_checker_selector_node[0m
+[652.780s] [ 99%] Built target test_progress_checker_selector_node
+[652.844s] [ 99%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[658.800s] [ 99%] [32m[1mLinking CXX executable test_smoother_selector_node[0m
+[659.710s] [ 99%] Built target test_smoother_selector_node
+[668.672s] [100%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[669.448s] [100%] Built target test_controller_selector_node
+[669.556s] Invoked command in '/home/brilliant/ros2_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/opennav_docking_core:/home/brilliant/ros2_ws/install/nav_2d_utils:/home/brilliant/ros2_ws/install/dwb_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_voxel_grid:/home/brilliant/ros2_ws/install/nav2_velocity_smoother:/home/brilliant/ros2_ws/install/nav2_rviz_plugins:/home/brilliant/ros2_ws/install/nav2_map_server:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager:/home/brilliant/ros2_ws/install/nav2_amcl:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/serial/lib:/home/brilliant/ros2_ws/install/nav_2d_utils/lib:/home/brilliant/ros2_ws/install/dwb_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:/home/brilliant/ros2_ws/install/nav2_voxel_grid/lib:/home/brilliant/ros2_ws/install/nav2_velocity_smoother/lib:/home/brilliant/ros2_ws/install/nav2_rviz_plugins/lib:/home/brilliant/ros2_ws/install/nav2_map_server/lib:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager/lib:/home/brilliant/ros2_ws/install/nav2_amcl/lib:/home/brilliant/ros2_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/twist_stamper:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_loopback_sim:/home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/brilliant/ros2_ws/build/nav2_behavior_tree -- -j4 -l4
+[669.569s] Invoking command in '/home/brilliant/ros2_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/opennav_docking_core:/home/brilliant/ros2_ws/install/nav_2d_utils:/home/brilliant/ros2_ws/install/dwb_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_voxel_grid:/home/brilliant/ros2_ws/install/nav2_velocity_smoother:/home/brilliant/ros2_ws/install/nav2_rviz_plugins:/home/brilliant/ros2_ws/install/nav2_map_server:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager:/home/brilliant/ros2_ws/install/nav2_amcl:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/serial/lib:/home/brilliant/ros2_ws/install/nav_2d_utils/lib:/home/brilliant/ros2_ws/install/dwb_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:/home/brilliant/ros2_ws/install/nav2_voxel_grid/lib:/home/brilliant/ros2_ws/install/nav2_velocity_smoother/lib:/home/brilliant/ros2_ws/install/nav2_rviz_plugins/lib:/home/brilliant/ros2_ws/install/nav2_map_server/lib:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager/lib:/home/brilliant/ros2_ws/install/nav2_amcl/lib:/home/brilliant/ros2_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/twist_stamper:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_loopback_sim:/home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/brilliant/ros2_ws/build/nav2_behavior_tree
+[669.593s] -- Install configuration: "Release"
+[669.595s] -- Execute custom install script
+[669.597s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[669.632s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[669.657s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[669.686s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[669.714s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[669.740s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[669.767s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[669.796s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[669.824s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[669.853s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[669.882s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[669.909s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[669.936s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[669.963s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[669.992s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[670.020s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[670.048s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[670.078s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[670.106s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[670.135s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[670.163s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[670.192s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[670.220s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[670.248s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[670.279s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[670.307s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[670.337s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[670.365s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[670.398s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[670.427s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so
+[670.455s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so
+[670.485s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so
+[670.514s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+[670.543s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[670.582s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[670.609s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[670.639s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[670.671s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[670.705s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[670.737s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[670.766s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[670.799s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[670.828s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[670.860s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[670.930s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[670.997s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[671.031s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[671.063s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[671.090s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[671.123s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[671.157s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[671.194s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[671.229s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[671.262s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[671.311s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[671.363s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/lib/nav2_behavior_tree/generate_nav2_tree_nodes_xml
+[671.431s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[671.479s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[671.533s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[671.566s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[671.597s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[671.631s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[671.660s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_utils.hpp
+[671.694s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[671.724s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[671.752s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[671.783s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[671.809s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[671.836s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[671.862s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[671.891s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[671.914s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[671.940s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[671.967s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[671.994s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[672.021s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+[672.047s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[672.072s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[672.097s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[672.122s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[672.155s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[672.174s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[672.202s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[672.230s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[672.268s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[672.293s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[672.327s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[672.362s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[672.397s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[672.427s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[672.459s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[672.494s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/are_error_codes_present_condition.hpp
+[672.525s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[672.557s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[672.591s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[672.623s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[672.658s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[672.687s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[672.718s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[672.749s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[672.777s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[672.808s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[672.836s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[672.862s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[672.888s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp
+[672.918s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_planner_recovery_help_condition.hpp
+[672.943s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_smoother_recovery_help_condition.hpp
+[672.967s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[672.993s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[673.025s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[673.055s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[673.089s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[673.119s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[673.148s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[673.177s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[673.212s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[673.243s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[673.272s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[673.303s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_action_server.hpp
+[673.342s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_behavior_tree_fixture.hpp
+[673.399s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_dummy_tree_node.hpp
+[673.461s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_service.hpp
+[673.523s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_transform_handler.hpp
+[673.562s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_action_server.hpp
+[673.591s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp
+[673.628s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp
+[673.662s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_service.hpp
+[673.691s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_transform_handler.hpp
+[673.734s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[673.767s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/plugins_list.hpp
+[673.796s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[673.826s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[673.857s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[673.893s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[673.922s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[673.948s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[673.979s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[674.015s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[674.061s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[674.091s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[674.124s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[674.160s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[674.198s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[674.245s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[674.287s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[674.332s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[674.373s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[674.428s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[674.461s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[674.494s] -- Symlinking: /home/brilliant/ros2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[674.545s] Invoked command in '/home/brilliant/ros2_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_util:/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/opennav_docking_core:/home/brilliant/ros2_ws/install/nav_2d_utils:/home/brilliant/ros2_ws/install/dwb_msgs:/home/brilliant/ros2_ws/install/nav_2d_msgs:/home/brilliant/ros2_ws/install/nav2_voxel_grid:/home/brilliant/ros2_ws/install/nav2_velocity_smoother:/home/brilliant/ros2_ws/install/nav2_rviz_plugins:/home/brilliant/ros2_ws/install/nav2_map_server:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager:/home/brilliant/ros2_ws/install/nav2_amcl:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_util/lib:/home/brilliant/ros2_ws/install/nav2_msgs/lib:/home/brilliant/ros2_ws/install/serial/lib:/home/brilliant/ros2_ws/install/nav_2d_utils/lib:/home/brilliant/ros2_ws/install/dwb_msgs/lib:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib:/home/brilliant/ros2_ws/install/nav2_voxel_grid/lib:/home/brilliant/ros2_ws/install/nav2_velocity_smoother/lib:/home/brilliant/ros2_ws/install/nav2_rviz_plugins/lib:/home/brilliant/ros2_ws/install/nav2_map_server/lib:/home/brilliant/ros2_ws/install/nav2_lifecycle_manager/lib:/home/brilliant/ros2_ws/install/nav2_amcl/lib:/home/brilliant/ros2_ws/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/twist_stamper:/home/brilliant/ros2_ws/install/twist_stamper/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/brilliant/ros2_ws/build/nav2_loopback_sim:/home/brilliant/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/brilliant/ros2_ws/build/nav2_behavior_tree

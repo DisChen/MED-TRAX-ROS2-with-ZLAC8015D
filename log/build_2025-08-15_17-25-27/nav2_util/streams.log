@@ -1,0 +1,62 @@
+[0.032s] Invoking command in '/home/brilliant/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/brilliant/ros2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/nav2_util
+[0.174s] -- The C compiler identification is GNU 13.3.0
+[0.330s] -- The CXX compiler identification is GNU 13.3.0
+[0.374s] -- Detecting C compiler ABI info
+[0.633s] -- Detecting C compiler ABI info - done
+[0.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.662s] -- Detecting C compile features
+[0.664s] -- Detecting C compile features - done
+[0.688s] -- Detecting CXX compiler ABI info
+[1.034s] -- Detecting CXX compiler ABI info - done
+[1.067s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.067s] -- Detecting CXX compile features
+[1.070s] -- Detecting CXX compile features - done
+[1.087s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.482s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.652s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.819s] -- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+[1.956s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.998s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.051s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.330s] -- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+[2.528s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.544s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.790s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.843s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.253s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.286s] -- Found nav2_common: 1.3.7 (/home/brilliant/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[3.288s] -- Found nav2_msgs: 1.3.7 (/home/brilliant/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.663s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.711s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[3.731s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.822s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.829s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.829s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.196s] -- Setting build type to Release as none was specified.
+[4.217s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.232s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[4.731s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.735s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.995s] -- Found Threads: TRUE  
+[5.036s] [31mCMake Error at test/CMakeLists.txt:8 (find_package):
+[5.036s]   By not providing "Findtest_msgs.cmake" in CMAKE_MODULE_PATH this project
+[5.039s]   has asked CMake to find a package configuration file provided by
+[5.039s]   "test_msgs", but CMake did not find one.
+[5.040s] 
+[5.040s]   Could not find a package configuration file provided by "test_msgs" with
+[5.040s]   any of the following names:
+[5.040s] 
+[5.045s]     test_msgsConfig.cmake
+[5.045s] -- Configuring incomplete, errors occurred!
+[5.045s]     test_msgs-config.cmake
+[5.045s] 
+[5.046s]   Add the installation prefix of "test_msgs" to CMAKE_PREFIX_PATH or set
+[5.046s]   "test_msgs_DIR" to a directory containing one of the above files.  If
+[5.046s]   "test_msgs" provides a separate development package or SDK, be sure it has
+[5.054s]   been installed.
+[5.054s] 
+[5.055s] [0m
+[5.083s] Invoked command in '/home/brilliant/ros2_ws/build/nav2_util' returned '1': AMENT_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brilliant/ros2_ws/install/nav2_msgs:/home/brilliant/ros2_ws/install/nav2_common:/home/brilliant/ros2_ws/install/sllidar_ros2:/home/brilliant/ros2_ws/install/serial:/home/brilliant/ros2_ws/install/minibot:/home/brilliant/ros2_ws/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/brilliant/ros2_ws/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brilliant/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/brilliant/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/brilliant/ros2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/nav2_util

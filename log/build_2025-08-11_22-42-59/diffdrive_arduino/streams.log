@@ -1,0 +1,83 @@
+[0.046s] Invoking command in '/home/brilliant/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/diffdrive_arduino
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.457s] -- Detecting CXX compiler ABI info
+[0.794s] -- Detecting CXX compiler ABI info - done
+[0.837s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.839s] -- Detecting CXX compile features
+[0.842s] -- Detecting CXX compile features - done
+[0.902s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.582s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.308s] -- Found hardware_interface: 4.32.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[2.605s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.659s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.518s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.892s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.937s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.327s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.849s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.966s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.990s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.035s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.100s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.226s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[9.015s] -- Configuring done (8.9s)
+[9.194s] -- Generating done (0.1s)
+[9.224s] -- Build files have been written to: /home/brilliant/ros2_ws/build/diffdrive_arduino
+[9.295s] Invoked command in '/home/brilliant/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/diffdrive_arduino
+[9.296s] Invoking command in '/home/brilliant/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[9.629s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[33.510s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[34.847s] [100%] Built target diffdrive_arduino
+[34.898s] Invoked command in '/home/brilliant/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[34.902s] Invoking command in '/home/brilliant/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/diffdrive_arduino
+[34.939s] -- Install configuration: ""
+[34.941s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml
+[34.943s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino
+[34.943s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino
+[34.943s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[34.945s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[34.947s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[34.947s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[34.950s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[34.951s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[34.951s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control
+[34.954s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[34.954s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf
+[34.958s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[34.958s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[34.960s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[34.963s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz
+[34.964s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[34.964s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[34.964s] -- Up-to-date: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[34.968s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[34.968s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config
+[34.968s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[34.971s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[34.978s] -- Set non-toolchain portion of runtime path of "/home/brilliant/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[34.979s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[34.980s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[34.982s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[34.983s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[34.985s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[34.986s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[35.001s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[35.002s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[35.007s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[35.009s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[35.012s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[35.012s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[35.013s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[35.013s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[35.015s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[35.015s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[35.020s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[35.020s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[35.023s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.023s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[35.024s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[35.024s] -- Installing: /home/brilliant/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[35.032s] Invoked command in '/home/brilliant/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/diffdrive_arduino

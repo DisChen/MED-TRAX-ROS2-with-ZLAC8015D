@@ -1,0 +1,1 @@
+/home/brilliant/ros2_ws/src/minibot/launch/sim_control_station.launch.py

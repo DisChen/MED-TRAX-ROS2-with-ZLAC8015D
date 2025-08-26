@@ -1,0 +1,34 @@
+[0.691s] Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/serial -- -j4 -l4
+[0.944s] [ 28%] Built target serial
+[1.084s] [ 42%] Built target gtest
+[1.190s] [ 57%] Built target serial_example
+[1.303s] [ 71%] Built target gtest_main
+[1.412s] [ 85%] Built target serial-test
+[1.516s] [100%] Built target serial-test-timer
+[1.554s] Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/serial -- -j4 -l4
+[1.557s] Invoking command in '/home/brilliant/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/serial
+[1.582s] -- Install configuration: ""
+[1.585s] -- Execute custom install script
+[1.586s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/lib/libserial.a
+[1.588s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/include/serial/serial.h
+[1.590s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/include/serial/v8stdint.h
+[1.596s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[1.597s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[1.597s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.600s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.601s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.603s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.604s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/environment/path.sh
+[1.607s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/environment/path.dsv
+[1.608s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.bash
+[1.610s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.sh
+[1.611s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.zsh
+[1.612s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/local_setup.dsv
+[1.614s] -- Symlinking: /home/brilliant/ros2_ws/install/serial/share/serial/package.dsv
+[1.645s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.647s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.649s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.650s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.652s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.652s] -- Up-to-date symlink: /home/brilliant/ros2_ws/install/serial/share/serial/package.xml
+[1.661s] Invoked command in '/home/brilliant/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/install/twist_stamper:/home/brilliant/ros2_ws/install/nav2_simple_commander:/home/brilliant/ros2_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/serial

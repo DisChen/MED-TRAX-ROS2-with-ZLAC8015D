@@ -1,0 +1,71 @@
+[0.032s] Invoking command in '/home/brilliant/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/sllidar_ros2
+[0.066s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.616s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.648s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.729s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.751s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.004s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.010s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.241s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.406s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.534s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.824s] -- Configuring done (1.8s)
+[1.884s] -- Generating done (0.0s)
+[1.899s] -- Build files have been written to: /home/brilliant/ros2_ws/build/sllidar_ros2
+[1.931s] Invoked command in '/home/brilliant/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/brilliant/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brilliant/ros2_ws/install/sllidar_ros2
+[1.931s] Invoking command in '/home/brilliant/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[2.106s] [  5%] [32m[1mLinking CXX executable sllidar_client[0m
+[2.130s] [ 10%] [32m[1mLinking CXX executable sllidar_node[0m
+[3.131s] [ 15%] Built target sllidar_client
+[3.162s] [100%] Built target sllidar_node
+[3.218s] Invoked command in '/home/brilliant/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/brilliant/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.221s] Invoking command in '/home/brilliant/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/sllidar_ros2
+[3.258s] -- Install configuration: ""
+[3.263s] -- Execute custom install script
+[3.270s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[3.338s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[3.380s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[3.438s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[3.476s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.499s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[3.523s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.554s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.588s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.613s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.637s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[3.660s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.684s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[3.703s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[3.726s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[3.750s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[3.775s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.801s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[3.824s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.847s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.872s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.894s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.921s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[3.944s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.969s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.996s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[4.022s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[4.051s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[4.075s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[4.100s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[4.123s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[4.145s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[4.167s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[4.193s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[4.224s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[4.257s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[4.275s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[4.297s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[4.325s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[4.345s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.367s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.389s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[4.423s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[4.439s] -- Symlinking: /home/brilliant/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[4.463s] Invoked command in '/home/brilliant/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brilliant/ros2_ws/src/install/twist_stamper:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/brilliant/ros2_ws/build/sllidar_ros2
